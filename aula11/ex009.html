@@ -7,14 +7,21 @@
 </head>
 <body>
   <h1>Aeroporto Internacional de Brasília</h1> 
+  Qual é seu país ? <input type="txtpa">
+  <input type="button" value="Verificar" onclick="pesquisar()">
+  <div id="res">
+
+  </div>
     <script>
-        var país = 'Brasil'
-        console.log(`Vivendo em ${país}`)
-        if(país == 'Brasil'){
-        console.log('Você é Brasileiro!')
-        }else{
-        console.log('Você é Estrangeiro!')
-        }
+        function pesquisar{
+            var país = 'Brasil'
+            console.log(`Vivendo em ${país} `)
+            if(país == 'Brasil'){
+            console.log('Você é     Brasileiro!')
+            }else{
+            console.log('Você é     Estrangeiro!')
+             }
+    }
     </script>
 </body>
 </html>
